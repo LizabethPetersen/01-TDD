@@ -6,7 +6,8 @@ greet.hello = (world) => {
     if (world === ' ' || typeof world != 'string' ) {
         return null;
     };
-    if (world === 'World') {
-        return 'Hello ${world}!';
+    if (world === 'Me') {
+        return 'I love JS!';
     }
+    return `Hello ${world}!`;
 };
