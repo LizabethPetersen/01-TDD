@@ -2,12 +2,12 @@
 
 const greet = module.exports = {};
 
-greet.hello = (world) => {
-    if (world === ' ' || typeof world != 'string' ) {
+greet.hello = (name) => {
+    if (name === ' ' || typeof name != 'string' ) {
         return null;
     };
-    if (world === 'Me') {
+    if (name === 'Me') {
         return 'I love JS!';
     }
-    return `Hello ${world}!`;
+    return `Hello ${name}!`;
 };
