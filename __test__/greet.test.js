@@ -8,6 +8,6 @@ describe('testing #greet', () => {
         });
         // error checking test
         test('should return null for empty string or non-string response', () => {
-            expect(greet.hello(' ')).toBe('Null');
+            expect(greet.hello(' ')).toEqual(null);
         });
     });
