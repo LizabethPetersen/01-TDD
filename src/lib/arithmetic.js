@@ -1,12 +1,12 @@
 'use strict';
 
-let a = num1;
-let b = num2;
+const a = 5;
+const b = 20;
 
 const add = () => {
-  if (num1 == NaN || num2 == NaN) {
+  if (a === '' || b === '') {
     throw new Error('Unable to complete operation');
   } else {
-    return add (a + b);
-  };
-}
+    return add(a + b);
+  }
+};
